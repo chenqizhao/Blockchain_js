@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --watchAll",
     "block-test": "nodemon block-test"
   },
   "keywords": [],
   "author": "Chenqi Zhao",
   "license": "ISC",
   "devDependencies": {
+    "jest": "^22.4.2",
     "nodemon": "^1.17.1"
   },
   "dependencies": {
