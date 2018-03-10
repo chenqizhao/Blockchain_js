@@ -1,0 +1,16 @@
+{
+  "name": "BlockchainJS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "block-test": "nodemon block-test"
+  },
+  "keywords": [],
+  "author": "Chenqi Zhao",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  }
+}
