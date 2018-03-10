@@ -1,4 +1,5 @@
 const Block = require('./block')
 
-const block = new Block('time', 'last', 'hash', 'data');
-console.log(block.toString())
+const firstBlock = Block.mineBlock(Block.genesis(), 'first');
+
+console.log(firstBlock.toString())
